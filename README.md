@@ -1,8 +1,13 @@
-# test_python_avd   
+# cda_avdconfig
 
-Use conda/mamba for creating environments including JDK and graphviz
+This project shows how to create a python environment for running cda analyses
+with fastcda.
 
-To create environment fc. Make it short to 
+We use conda/mamba for creating environments that also include
+the installation of JDK and graphviz.  All this can be done without admin
+privileges!
+
+To create the environment named **fc**. Make it short to 
 prevent running into windows long path error
 ```
 # create with python3.13
@@ -37,8 +42,3 @@ mamba env export --from-history > environment.yaml
 mamba env export --no-builds > environment_win11.yaml
 
 ```
-R:\DVBIC\venvs\fastcda\Scripts\python.exe
-
-make a symboliclink
-
-mklink /D venv R:\DVBIC\venvs\fastcda
