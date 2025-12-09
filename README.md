@@ -1,9 +1,9 @@
 # cda_avdconfig
 
 This project shows how to create a python environment for running cda analyses
-with fastcda.
+with fastcda on an Azure Virtual Desktop.
 
-We use conda/mamba for creating environments that also include
+We use conda/mamba from miniforge3 for creating environments that also include
 the installation of JDK and graphviz.  All this can be done without admin
 privileges!
 
